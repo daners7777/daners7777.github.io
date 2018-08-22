@@ -1,2 +1,2 @@
-# daners7777.github.io
-Basic-Portfolio
+# Basic-Portfolio
+Basic Portfolio - Includes bio, photos and styling
