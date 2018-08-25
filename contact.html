@@ -28,14 +28,15 @@
 	<hr>
 	<img class="portrait" src="assets/images/" alt="">
 	<form action="/action_page.php">
+		<!-- Input replaces the value with empty string -->
 		Name<br>
-		<input type="text" name="firstname" value="John Smith">
+		<input type="text" onfocus="this.value=''" value="John Smith">
 		<br>
 		Email<br>
-		<input type="text" name="email" value="example@gmail.com">
+		<input type="text" onfocus="this.value=''" value="example@gmail.com">
 		<br>
 		Message<br>
-		<input type="text" name="message">
+		<textarea name="message" id="" cols="30" rows="10" placeholder="Write something..."></textarea>
 		<br><br>
 		<input type="submit" value="Submit">
 	  </form> 
@@ -48,3 +49,8 @@
 </body>
 
 </html>
+
+<!--textarea name="message" id="" cols="30" rows="10" placeholder="Write something..."></textarea>
+
+<label for="name">Name</label>  -->
+
