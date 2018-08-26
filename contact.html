@@ -12,45 +12,57 @@
 
 <body>
 	<div>
-	<header class="header">
-		<div class="namebox">
-			<h1 class="myname">Dane Finch</h1>
-		</div>	
-		<div class="links">
-			<a id="about" href="index.html">About |</a>
-			<a id="portfolio" href="portfolio.html">Portfolio |</a>
-			<a id="contact" href="contact.html">Contact</a>
-		</div>	
-	</header>
+		<header class="header">
+			<div class="headercontainer">
+				<div class="namebox">
+					<h1 class="myname">Dane Finch</h1>
+				</div>	
+				<div class="links">
+					<a id="about" href="index.html">About |</a>
+					<a id="portfolio" href="portfolio.html">Portfolio |</a>
+					<a id="contact" href="contact.html">Contact</a>
+				</div>
+			</div>	
+		</header>
 
-	<div class="contentbox">
-	<h1 class="title">Contact</h1>
-	<hr>
-	<img class="portrait" src="assets/images/" alt="">
-	<form action="/action_page.php">
+	<div class="container1">
+	<div class="wrapper">
+		<div class="forms">
+		<h1 class="title">Contact</h1>
+		<hr>
+		<form action="/action_page.php">
 		<!-- Input replaces the value with empty string -->
 		Name<br>
-		<input type="text" onfocus="this.value=''" value="John Smith">
+		<textarea name="message" id="" cols="136" rows="1" onfocus="this.value=''" placeholder="John Smith"></textarea>
 		<br>
 		Email<br>
-		<input type="text" onfocus="this.value=''" value="example@gmail.com">
+		<textarea name="message" id="" cols="136" rows="1" placeholder="example@gmail.com"></textarea>
 		<br>
 		Message<br>
-		<textarea name="message" id="" cols="30" rows="10" placeholder="Write something..."></textarea>
+		<textarea name="message" id="" cols="136" rows="10" placeholder="Write something..."></textarea>
 		<br><br>
-		<input type="submit" value="Submit">
-	  </form> 
+		<input type="submit" class="submitbutton" value="Submit">
+		  </form> 
 		</div>
+		</div>
+	</div>
+
+		<div class="container2">
+				<h3>Ways to Connect</h3>
+				<a href="https://github.com/daners7777" target="blank">
+				<img class="social" src=assets/images/github.png>
+				</a>
+				
+				<a href="https://www.linkedin.com/in/dane-finch-8682143b/" target="blank">	
+				<img class="social" src=assets/images/linkedin.png>
+				</a>
+			</div>
 
 	<footer class="footer">
-		<h2>&copy Copyright 2018 Dane Finch<h2>
+		<h4>&copy Copyright 2018 Dane Finch<h4>
 	</footer>
 
 </body>
 
 </html>
-
-<!--textarea name="message" id="" cols="30" rows="10" placeholder="Write something..."></textarea>
-
-<label for="name">Name</label>  -->
 
