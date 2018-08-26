@@ -25,7 +25,6 @@ body {
     justify-content: space-around;
 }
 
-
 .myname {
     color: #ffffff;
     font-size: 30px;
@@ -126,7 +125,6 @@ h2{
     text-align: center;
  }
  
-
 .title {
     padding: 5px;
     margin-bottom: 35px;
@@ -180,6 +178,7 @@ h3 {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
 .footer {
     background-color: #666666;
     color:#c4bcb0;
